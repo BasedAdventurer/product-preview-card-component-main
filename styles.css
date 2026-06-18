@@ -135,7 +135,7 @@ body {
     cursor: pointer;
 }
 
-.btn:active {
+.btn:active, .btn:hover {
     background-color: var(--primary-clr-green-700);
 }
 
@@ -143,6 +143,7 @@ body {
     .product__card {
         max-width: 40em;
         max-height: 26em;
+
     }
 
     .product__card .container {
